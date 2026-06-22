@@ -68,12 +68,26 @@
 #     print(f'{num} X {i} = {result}')
 
 
-count = int(input("Enter num count:"))
-sum = 0
-for i in range(count):
-    num = int(input("Enter your num:"))
-    sum = sum + num
-print(f"sum is {sum}")
-print(f"Average = {sum/count}")
+# count = int(input("Enter num count:"))
+# sum = 0
+# for i in range(count):
+#     num = int(input("Enter your num:"))
+#     sum = sum + num
+# print(f"sum is {sum}")
+# print(f"Average = {sum/count}")
+
+
+# a, b = 0, 1
+# for i in range(10):
+#     print(a, end=" ")
+#     a, b = b, a + b
+
+
+
+
+
+
+
+
 
 
