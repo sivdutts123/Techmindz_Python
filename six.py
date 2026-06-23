@@ -127,11 +127,11 @@
 # # c =[1,2,3,4,1,3,4,2,7,8,9,2,3,4,5]
 # # remove duplicates from this list
 
-c =[1,2,3,4,1,3,4,2,7,8,9,2,3,4,5]
-b = []
-for i in c:
-    if i not in b:
-        b.append(i)
-print(f"The duplicate removed list is {b}")
+# c =[1,2,3,4,1,3,4,2,7,8,9,2,3,4,5]
+# b = []
+# for i in c:
+#     if i not in b:
+#         b.append(i)
+# print(f"The duplicate removed list is {b}")
 
 
