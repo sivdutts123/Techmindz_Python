@@ -80,16 +80,16 @@
 #pop()
 #popitem()
 #clear()
-a = {"name":"mohan","age":30,"location":"kochi"}
-print(a.get("name"))
-print(a['location'])
-print(a.keys())
-print(a.values())
-print(a.items())
-a.update({'phone':34456789})
-a['age']= 50
-a.pop("name")
-a.popitem()
-a.clear()
-print(a)
+# a = {"name":"mohan","age":30,"location":"kochi"}
+# print(a.get("name"))
+# print(a['location'])
+# print(a.keys())
+# print(a.values())
+# print(a.items())
+# a.update({'phone':34456789})
+# a['age']= 50
+# a.pop("name")
+# a.popitem()
+# a.clear()
+# print(a)
 
