@@ -172,3 +172,23 @@
 # else:
 #    print("NOT")
 
+# num1 = int(input("Enter the number 1 :"))
+# num2 = int(input("Enter the number 2 :"))
+# num3 = int(input("Enter the number 3 :"))
+
+# if (num1 > num2 ) and (num1 > num3):
+#     print("The largest number among the three is Number 1")
+# elif (num2 > num1) and (num2 > num3):
+#     print("The largest number among the three is Number 2")
+# elif (num3 > num1) and (num3 > num2):
+#     print("The largest number among the three is Number 3")
+# else:
+#     print("Invalid")
+
+
+# # check if a number is a multiple of 3 and 5
+# number = int(input("Enter the number:"))
+# if number % 3 == 0 and number % 5 == 0:
+#     print("The number is a mutiple of either 3 and 5")
+# else:
+#     print("Not a multiple of 3 and 5")

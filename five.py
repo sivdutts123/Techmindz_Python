@@ -85,6 +85,14 @@
 
 
 
+num = int(input("Enter the number:"))
+a = 0
+b = num
+while num > 0:
+    c = num % 10
+    num = num//10
+    a = a + c
+print(f"The sum of all {b} is:{a}")
 
 
 

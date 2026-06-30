@@ -46,17 +46,17 @@
 #             print(" ",end=" ")
 #     print()
 
-a = [1,2,3,4,5,6,7,8,9]
+# a = [1,2,3,4,5,6,7,8,9]
 
-b = []
-c = []
-middle=len(a)//2
+# b = []
+# c = []
+# middle=len(a)//2
 
-for i in a:
-    if i <= middle:
-        b.append(i)
-    else:
-        c.append(i) 
-print(b)
-print(c)
+# for i in a:
+#     if i <= middle:
+#         b.append(i)
+#     else:
+#         c.append(i) 
+# print(b)
+# print(c)
     
