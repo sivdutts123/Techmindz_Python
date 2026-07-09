@@ -96,6 +96,53 @@
 
 
 
+# class - blueprint(to create objects)
+
+# class car:
+#     def __init__(self,n,c):
+#         self.name = n
+#         self.color = c
+#         print("object created")
+#     def start(self):
+#         print(f"{self.name} has started")
+#     def stop(self):
+#         print("car stopped")
+# c1 = car("swift","black")
+# c2 = car("city","red")
+# c2.start()
+# c1.stop()
+
+# constructor - used to initialize an object (__init__())
+# initialize
 
 
+# create a class student
+# with 6 attributes name, m1, m2, m3, m4, m5
 
+# 3 methods
+
+# sum_of_marks()
+# average_of_marks()
+# display()
+
+class student:
+    def __init__(self,name,m1,m2,m3,m4,m5):
+        self.name = name
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+        self.m4 = m4
+        self.m5 = m5
+
+    def sum_of_marks(self):
+        return self.m1+self.m2+self.m3+self.m4+self.m5
+    def average_of_marks(self):
+        return self.sum_of_marks()/5
+    def display(self):
+        print(f"student {self.name} has marks of {self.m1},{self.m2},{self.m3},{self.m4},{self.m5} with {self.m1+self.m2+self.m3+self.m4+self.m5} as sum and average marks as {(self.m1+self.m2+self.m3+self.m4+self.m5)/5}")
+
+
+s1 = student("joel",45,56,67,53,43)
+s1.display()
+s1.average_of_marks()
+s1.sum_of_marks()

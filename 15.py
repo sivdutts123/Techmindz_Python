@@ -24,3 +24,11 @@
 # finally:
 #     print("this will always execute")
     
+
+# file3 = open("myfile.txt", "a")
+# for i in range(1, 10001):
+#     file3.write(f"\nvijisha {i}")
+# file3.close()
+
+import os
+os.mkdir("images")
