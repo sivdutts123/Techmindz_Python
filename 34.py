@@ -125,24 +125,24 @@
 # average_of_marks()
 # display()
 
-class student:
-    def __init__(self,name,m1,m2,m3,m4,m5):
-        self.name = name
-        self.m1 = m1
-        self.m2 = m2
-        self.m3 = m3
-        self.m4 = m4
-        self.m5 = m5
+# class student:
+#     def __init__(self,name,m1,m2,m3,m4,m5):
+#         self.name = name
+#         self.m1 = m1
+#         self.m2 = m2
+#         self.m3 = m3
+#         self.m4 = m4
+#         self.m5 = m5
 
-    def sum_of_marks(self):
-        return self.m1+self.m2+self.m3+self.m4+self.m5
-    def average_of_marks(self):
-        return self.sum_of_marks()/5
-    def display(self):
-        print(f"student {self.name} has marks of {self.m1},{self.m2},{self.m3},{self.m4},{self.m5} with {self.m1+self.m2+self.m3+self.m4+self.m5} as sum and average marks as {(self.m1+self.m2+self.m3+self.m4+self.m5)/5}")
+#     def sum_of_marks(self):
+#         return self.m1+self.m2+self.m3+self.m4+self.m5
+#     def average_of_marks(self):
+#         return self.sum_of_marks()/5
+#     def display(self):
+#         print(f"student {self.name} has marks of {self.m1},{self.m2},{self.m3},{self.m4},{self.m5} with {self.m1+self.m2+self.m3+self.m4+self.m5} as sum and average marks as {(self.m1+self.m2+self.m3+self.m4+self.m5)/5}")
 
 
-s1 = student("joel",45,56,67,53,43)
-s1.display()
-s1.average_of_marks()
-s1.sum_of_marks()
+# s1 = student("joel",45,56,67,53,43)
+# s1.display()
+# s1.average_of_marks()
+# s1.sum_of_marks()
